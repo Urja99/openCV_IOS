@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.source                 = { :git => 'https://github.com/opencv/opencv.git',
                                     :tag => spec.version.to_s }
     spec.summary                = "OpenCV Mobile C/C++ Pod"
-    spec.platform               = :ios, "14.0"
+    spec.platform               = :ios, "9.0"
     spec.vendored_frameworks    = "opencv2.xcframework"
     spec.source_files           = "opencv2.xcframework/*/Versions/A/Headers/*.h"
     spec.description            = "A pod for OpenCV"
